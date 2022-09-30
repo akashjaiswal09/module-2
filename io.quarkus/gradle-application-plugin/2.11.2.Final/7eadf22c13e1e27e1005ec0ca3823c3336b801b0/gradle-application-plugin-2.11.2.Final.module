@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.quarkus",
+    "module": "gradle-application-plugin",
+    "version": "2.11.2.Final",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "gradle-application-plugin-2.11.2.Final.jar",
+          "url": "gradle-application-plugin-2.11.2.Final.jar",
+          "size": 87942,
+          "sha512": "80422d71ba476fe5c976d0017ce91aefb07802831747a8dc332a6fda1167b9ddb54e99ff5854aa7dd763c66febcdd664eca5b7f0001751ed8c804151c3411705",
+          "sha256": "95792028d74714f6fa04c34483d1da9a777d28b3e5133359e8debf996c0cc88e",
+          "sha1": "3cb7473240dca03335224f3afd35b47764c0e3fe",
+          "md5": "cce81e5addedac46c60022561ab28cb6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.quarkus",
+          "module": "quarkus-bootstrap-core",
+          "version": {
+            "requires": "2.11.2.Final"
+          }
+        },
+        {
+          "group": "io.quarkus",
+          "module": "quarkus-devtools-common",
+          "version": {
+            "requires": "2.11.2.Final"
+          }
+        },
+        {
+          "group": "io.quarkus",
+          "module": "quarkus-core-deployment",
+          "version": {
+            "requires": "2.11.2.Final"
+          }
+        },
+        {
+          "group": "io.quarkus",
+          "module": "quarkus-gradle-model",
+          "version": {
+            "requires": "2.11.2.Final"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-application-plugin-2.11.2.Final.jar",
+          "url": "gradle-application-plugin-2.11.2.Final.jar",
+          "size": 87942,
+          "sha512": "80422d71ba476fe5c976d0017ce91aefb07802831747a8dc332a6fda1167b9ddb54e99ff5854aa7dd763c66febcdd664eca5b7f0001751ed8c804151c3411705",
+          "sha256": "95792028d74714f6fa04c34483d1da9a777d28b3e5133359e8debf996c0cc88e",
+          "sha1": "3cb7473240dca03335224f3afd35b47764c0e3fe",
+          "md5": "cce81e5addedac46c60022561ab28cb6"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradle-application-plugin-2.11.2.Final-javadoc.jar",
+          "url": "gradle-application-plugin-2.11.2.Final-javadoc.jar",
+          "size": 527604,
+          "sha512": "adc3b362d4a30f935a8d40d3d5d708ff99a914e8370a341d5d3e91c0c781d844111ed450279fcd0393ceba780aee266e30c8bb097d25dae4ed7b1c2818a46d11",
+          "sha256": "592d0901eab36a7273f255d126c06af656efaa9076572542943908cbd9832d14",
+          "sha1": "ee36924dae132a277e46cde864b0b0e7af63bee4",
+          "md5": "ac43da916600a14ea400357e92032d97"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradle-application-plugin-2.11.2.Final-sources.jar",
+          "url": "gradle-application-plugin-2.11.2.Final-sources.jar",
+          "size": 40132,
+          "sha512": "0b68b5096c3026b17ace46a8a8ef20174153a135341b2cbd268a11d8e8fb78699a6b9deaeeeac4b80a2f4ec58d8e12469ca7115550ce1834edad28ae0cffd2af",
+          "sha256": "2be13e6c4153cbfb72d250360b4f9b1eddeb9193dc6a627ddb4ba56d0b17f607",
+          "sha1": "aae730f29847de4244008060fed9a32f121d29bd",
+          "md5": "8e1844536d5582627ee062d5d612bd98"
+        }
+      ]
+    }
+  ]
+}
